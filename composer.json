@@ -1,0 +1,19 @@
+{
+    "name": "george/simple-mvc",
+    "description": "This is a simple MVC Route and Composer autoload",
+    "authors": [
+        {
+            "name": "george-essa",
+            "email": "gogo.sami@yahoo.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+        "files": ["vendor/smarty/smarty/libs/bootstrap.php"]
+    }
+}
